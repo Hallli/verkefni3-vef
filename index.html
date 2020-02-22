@@ -7,47 +7,95 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic@6.5.0/picnic.min.css">
     <!-- <link rel="stylesheet" href="main.css"> -->
-    <title>My Recipes</title>
+    <title>Halli</title>
     <style>
         .container {
             width: 80%;
             margin: auto;
             margin-top: 3em;
         }
-
+        header img{
+            width:100%;
+        }
+        body {
+            background-image: url("https://www.tesla.com/ns_videos/homepage/main_hero_homepage_desktop.jpg");
+            background-attachment: fixed;
+            background-size:cover;
+        }       
         .mybutton {
             background: #f7786b;
             font-size: 0.75em;
+        }
+        .button{
+            background-color:indianred;
+        }
+        .mybutton{
+            background-color:indigo;
+        }
+        p{
+            color:white;
+        }
+        li{
+            color:white;
+        }
+        h1{
+            color:white;
+        }
+        .svart{
+            color:black;
+        }
+        img{
+            
+            width:50%;
+        }
+        center{
+            color:red;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .kort{
+                width:50%;
+            }
+            
+        }
+        @media only screen and (max-width: 600px) {
+            .kort{
+                width:100%;
+            }
         }
     </style>
 </head>
 <body class="container">
     
     
-
-<h1>My Recipes</h1>
-
+<header>
+<h1>Bilategundir.</h1>
+</header>
 <div class="flex three demo">
 
 
 
-    <div>
+    <div class="kort">
 
         <article class="card">
             <header>
-                <img src="img/bread.jpg">
+                <img src="img/tesla.png">
             </header>
             <footer>
-                <h2>Faux French Bread</h2>
-                <small>2019-04-17</small>
-                <p>
-                    Not quite french bread which has great taste and stays fresh for longer.
+                <h2>Tesla</h2>
+                <!-- <small>2019-04-11</small>    t�k t�mann-->
+                <p class="svart">
+                    Tesla er amerískur bílategund sem er frekar ný og þeir sérhæfa sig í rafmagnsbíla.
                 </p>
-                <a class="button" href="posts/french-bread.html">Recipe</a>
+                <a class="button" href="posts/tesla.html">Um</a>
                 <br>
                 
                 
-                    <button class="shyButton mybutton">Bread</button>
+                    <button class="shyButton mybutton">Amerískur</button>
+                
+                    <button class="shyButton mybutton"> Electric vehicles</button>
+                
+                    <button class="shyButton mybutton"> Tesla Energy</button>
                 
             </footer>
             
@@ -57,31 +105,31 @@
 
 <!-- 
     <p>
-            <h2>1: <a href="posts/french-bread.html">Faux French Bread</a> <small>2019-04-17</small></h2>
-            Not quite french bread which has great taste and stays fresh for longer.
+            <h2>1: <a href="posts/tesla.html">Tesla</a> <small>2019-04-11</small></h2>
+            Tesla er amerískur bílategund sem er frekar ný og þeir sérhæfa sig í rafmagnsbíla.
         </p> -->
 
 
 
-    <div>
+    <div class="kort">
 
         <article class="card">
             <header>
-                <img src="img/cond-milk-cake.jpg">
+                <img src="img/koenigsegg-logo.jpg">
             </header>
             <footer>
-                <h2>Sweetened Condensed Milk Cake</h2>
-                <small>2019-04-15</small>
-                <p>
-                    A sweet and soft cake which is very easy to prepare and tastes great with a cup of tea.
+                <h2>Koenigsegg</h2>
+                <!-- <small>1994-01-01</small>    t�k t�mann-->
+                <p class="svart">
+                    koenigsegg er gert 1994 og ert 24 ara bilafyrirtaeki. Vefsíða þeirra er koenigsegg.com
                 </p>
-                <a class="button" href="posts/condensed-milk-cake.html">Recipe</a>
+                <a class="button" href="posts/koenigsegg.html">Um</a>
                 <br>
                 
                 
-                    <button class="shyButton mybutton">Cake</button>
+                    <button class="shyButton mybutton">Sænskur</button>
                 
-                    <button class="shyButton mybutton"> Sweet</button>
+                    <button class="shyButton mybutton"> Sports cars</button>
                 
             </footer>
             
@@ -91,29 +139,31 @@
 
 <!-- 
     <p>
-            <h2>2: <a href="posts/condensed-milk-cake.html">Sweetened Condensed Milk Cake</a> <small>2019-04-15</small></h2>
-            A sweet and soft cake which is very easy to prepare and tastes great with a cup of tea.
+            <h2>2: <a href="posts/koenigsegg.html">Koenigsegg</a> <small>1994-01-01</small></h2>
+            koenigsegg er gert 1994 og ert 24 ara bilafyrirtaeki. Vefsíða þeirra er koenigsegg.com
         </p> -->
 
 
 
-    <div>
+    <div class="kort">
 
         <article class="card">
             <header>
-                <img src="img/doughnuts.jpg">
+                <img src="img/subaru.jpg">
             </header>
             <footer>
-                <h2>Old Fashioned Doughnuts</h2>
-                <small>2019-04-14</small>
-                <p>
-                    Old fashioned sugar dusted doughnuts. Better than any store bought doughnuts.
+                <h2>Subaru</h2>
+                <!-- <small>1989-11-01</small>    t�k t�mann-->
+                <p class="svart">
+                    Japanskur bíll nettur og flottur premium bíll dýr bíll bíll bíll bíll bíll bíll bíll bíll bíll bíll bíll bíll
                 </p>
-                <a class="button" href="posts/doughnuts.html">Recipe</a>
+                <a class="button" href="posts/subaru.html">Um</a>
                 <br>
                 
                 
-                    <button class="shyButton mybutton">Sweet</button>
+                    <button class="shyButton mybutton">Japanskur</button>
+                
+                    <button class="shyButton mybutton"> Automobiles</button>
                 
             </footer>
             
@@ -123,29 +173,37 @@
 
 <!-- 
     <p>
-            <h2>3: <a href="posts/doughnuts.html">Old Fashioned Doughnuts</a> <small>2019-04-14</small></h2>
-            Old fashioned sugar dusted doughnuts. Better than any store bought doughnuts.
+            <h2>3: <a href="posts/subaru.html">Subaru</a> <small>1989-11-01</small></h2>
+            Japanskur bíll nettur og flottur premium bíll dýr bíll bíll bíll bíll bíll bíll bíll bíll bíll bíll bíll bíll
         </p> -->
 
 
 
-    <div>
+    <div class="kort">
 
         <article class="card">
             <header>
-                <img src="img/naan.jpg">
+                <img src="img/vw.jpg">
             </header>
             <footer>
-                <h2>Naan Bread</h2>
-                <small>2019-04-13</small>
-                <p>
-                    Soft and fluffy home made naan bread which doesn't need you to fire up the oven. Great with curries or tear chunks and dunk in honey butter.
+                <h2>Volkswagen</h2>
+                <!-- <small>1989-11-01</small>    t�k t�mann-->
+                <p class="svart">
+                    Volkswagen is a German automaker founded in 1937 by the German Labour Front, a Nazi labour union, and headquartered in Wolfsburg. Volkswagen Group,
                 </p>
-                <a class="button" href="posts/naan.html">Recipe</a>
+                <a class="button" href="posts/vw.html">Um</a>
                 <br>
                 
                 
-                    <button class="shyButton mybutton">Bread</button>
+                    <button class="shyButton mybutton">German</button>
+                
+                    <button class="shyButton mybutton"> Automobiles</button>
+                
+                    <button class="shyButton mybutton"> commercial vehicles</button>
+                
+                    <button class="shyButton mybutton"> motorcycles</button>
+                
+                    <button class="shyButton mybutton"> turbomachinery</button>
                 
             </footer>
             
@@ -155,31 +213,37 @@
 
 <!-- 
     <p>
-            <h2>4: <a href="posts/naan.html">Naan Bread</a> <small>2019-04-13</small></h2>
-            Soft and fluffy home made naan bread which doesn't need you to fire up the oven. Great with curries or tear chunks and dunk in honey butter.
+            <h2>4: <a href="posts/vw.html">Volkswagen</a> <small>1989-11-01</small></h2>
+            Volkswagen is a German automaker founded in 1937 by the German Labour Front, a Nazi labour union, and headquartered in Wolfsburg. Volkswagen Group,
         </p> -->
 
 
 
-    <div>
+    <div class="kort">
 
         <article class="card">
             <header>
-                <img src="img/pide.jpg">
+                <img src="img/toyota.jpg">
             </header>
             <footer>
-                <h2>Turkish Cheese Pide</h2>
-                <small>2019-04-12</small>
-                <p>
-                    Traditional Turkish pide stuffed with cheese. Great as an appetizer or for breakfast or lunch.
+                <h2>Toyota</h2>
+                <!-- <small>1937-08-28</small>    t�k t�mann-->
+                <p class="svart">
+                    Toyota is the global market leader in sales of hybrid electric vehicles, and one of the largest companies to encourage the mass-market adoption of hybrid vehicles across the globe.
                 </p>
-                <a class="button" href="posts/turkish-pide.html">Recipe</a>
+                <a class="button" href="posts/toyota.html">Um</a>
                 <br>
                 
                 
-                    <button class="shyButton mybutton">Bread</button>
+                    <button class="shyButton mybutton">Japanskur</button>
                 
-                    <button class="shyButton mybutton"> Savoury</button>
+                    <button class="shyButton mybutton"> Automobiles</button>
+                
+                    <button class="shyButton mybutton"> luxury vehicles</button>
+                
+                    <button class="shyButton mybutton"> commercial vehicles</button>
+                
+                    <button class="shyButton mybutton"> engines</button>
                 
             </footer>
             
@@ -189,29 +253,39 @@
 
 <!-- 
     <p>
-            <h2>5: <a href="posts/turkish-pide.html">Turkish Cheese Pide</a> <small>2019-04-12</small></h2>
-            Traditional Turkish pide stuffed with cheese. Great as an appetizer or for breakfast or lunch.
+            <h2>5: <a href="posts/toyota.html">Toyota</a> <small>1937-08-28</small></h2>
+            Toyota is the global market leader in sales of hybrid electric vehicles, and one of the largest companies to encourage the mass-market adoption of hybrid vehicles across the globe.
         </p> -->
 
 
 
-    <div>
+    <div class="kort">
 
         <article class="card">
             <header>
-                <img src="img/rolls.jpg">
+                <img src="img/bentley.png">
             </header>
             <footer>
-                <h2>Lionhouse Dinner Rolls</h2>
-                <small>2019-04-11</small>
-                <p>
-                    Soft and fluffy dinner rolls. Great as a side or in breakfast with coffee.
+                <h2>Bentley</h2>
+                <!-- <small>1919-01-18</small>    t�k t�mann-->
+                <p class="svart">
+                    Bentley er 101 ára bílategund, Bentley Motors Limited, luxus bílar og SUV bílar. Flottir bílar, fáir framleiddir. Lorem Ipsum Bentley Ipsum Dummy Bentley Text Bentley Car
                 </p>
-                <a class="button" href="posts/lionhouse-rolls.html">Recipe</a>
+                <a class="button" href="posts/Bentley.html">Um</a>
                 <br>
                 
                 
-                    <button class="shyButton mybutton">Bread</button>
+                    <button class="shyButton mybutton">Bíll</button>
+                
+                    <button class="shyButton mybutton"> breskur</button>
+                
+                    <button class="shyButton mybutton">  luxury cars and SUVs</button>
+                
+                    <button class="shyButton mybutton"> Continental GT</button>
+                
+                    <button class="shyButton mybutton">Bentayga</button>
+                
+                    <button class="shyButton mybutton">Mulsanne</button>
                 
             </footer>
             
@@ -221,31 +295,35 @@
 
 <!-- 
     <p>
-            <h2>6: <a href="posts/lionhouse-rolls.html">Lionhouse Dinner Rolls</a> <small>2019-04-11</small></h2>
-            Soft and fluffy dinner rolls. Great as a side or in breakfast with coffee.
+            <h2>6: <a href="posts/Bentley.html">Bentley</a> <small>1919-01-18</small></h2>
+            Bentley er 101 ára bílategund, Bentley Motors Limited, luxus bílar og SUV bílar. Flottir bílar, fáir framleiddir. Lorem Ipsum Bentley Ipsum Dummy Bentley Text Bentley Car
         </p> -->
 
 
 
-    <div>
+    <div class="kort">
 
         <article class="card">
             <header>
-                <img src="img/challah.jpg">
+                <img src="img/BMW.jpg">
             </header>
             <footer>
-                <h2>Honey Challah</h2>
-                <small>2019-04-10</small>
-                <p>
-                    A soft and sweet traditional bread infused with honey flavour.
+                <h2>BMW</h2>
+                <!-- <small>1916-03-07</small>    t�k t�mann-->
+                <p class="svart">
+                    BMW Stendur fyrir Bavarian Motor Works og er 103 ára bilategund
                 </p>
-                <a class="button" href="posts/honey-challah.html">Recipe</a>
+                <a class="button" href="posts/bmw.html">Um</a>
                 <br>
                 
                 
-                    <button class="shyButton mybutton">Bread</button>
+                    <button class="shyButton mybutton">Bíll</button>
                 
-                    <button class="shyButton mybutton"> Sweet</button>
+                    <button class="shyButton mybutton"> motorcycles</button>
+                
+                    <button class="shyButton mybutton"> German</button>
+                
+                    <button class="shyButton mybutton"> (Aircraft engines motorcycles and cars) would be BMW's main products until World War II</button>
                 
             </footer>
             
@@ -255,14 +333,576 @@
 
 <!-- 
     <p>
-            <h2>7: <a href="posts/honey-challah.html">Honey Challah</a> <small>2019-04-10</small></h2>
-            A soft and sweet traditional bread infused with honey flavour.
+            <h2>7: <a href="posts/bmw.html">BMW</a> <small>1916-03-07</small></h2>
+            BMW Stendur fyrir Bavarian Motor Works og er 103 ára bilategund
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/ford.png">
+            </header>
+            <footer>
+                <h2>Ford</h2>
+                <!-- <small>1903-06-16</small>    t�k t�mann-->
+                <p class="svart">
+                    Ford er amerískt og er 116 ára bíla fyrirtæki þeir fjöldaframleiða bila
+                </p>
+                <a class="button" href="posts/ford.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">Automobiles</button>
+                
+                    <button class="shyButton mybutton"> Luxury Vehicles</button>
+                
+                    <button class="shyButton mybutton"> Commercial Vehicles</button>
+                
+                    <button class="shyButton mybutton"> Pickup</button>
+                
+                    <button class="shyButton mybutton">trucks</button>
+                
+                    <button class="shyButton mybutton"> SUVs</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>8: <a href="posts/ford.html">Ford</a> <small>1903-06-16</small></h2>
+            Ford er amerískt og er 116 ára bíla fyrirtæki þeir fjöldaframleiða bila
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/mitsubishi_logo_standart.png">
+            </header>
+            <footer>
+                <h2>Mitsubishi</h2>
+                <!-- <small>1870-01-01</small>    t�k t�mann-->
+                <p class="svart">
+                    Japanskur bill flottir.
+                </p>
+                <a class="button" href="posts/mitsubishi.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">Passenger cars</button>
+                
+                    <button class="shyButton mybutton"> economy cars</button>
+                
+                    <button class="shyButton mybutton"> commercial vehicles</button>
+                
+                    <button class="shyButton mybutton"> Japanskur</button>
+                
+                    <button class="shyButton mybutton"> Flottir</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>9: <a href="posts/mitsubishi.html">Mitsubishi</a> <small>1870-01-01</small></h2>
+            Japanskur bill flottir.
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/ferrari.png">
+            </header>
+            <footer>
+                <h2>Ferrari</h2>
+                <!-- <small>1400-01-01</small>    t�k t�mann-->
+                <p class="svart">
+                    italskir bilar, super bilar, sport bilar
+                </p>
+                <a class="button" href="posts/ferrari.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">Italian</button>
+                
+                    <button class="shyButton mybutton"> Bíll</button>
+                
+                    <button class="shyButton mybutton"> luxury sports car</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>10: <a href="posts/ferrari.html">Ferrari</a> <small>1400-01-01</small></h2>
+            italskir bilar, super bilar, sport bilar
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/lamborghini.png">
+            </header>
+            <footer>
+                <h2>Lamborghini</h2>
+                <!-- <small>1400-01-01</small>    t�k t�mann-->
+                <p class="svart">
+                    Ferruccio Lamborghini, an italian manufacturing magnate, founded Automobili Ferruccio Lamborgini in 1963 to compete with established marques includig Ferrari
+                </p>
+                <a class="button" href="posts/lamborghini.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">ítalskur</button>
+                
+                    <button class="shyButton mybutton"> bíll</button>
+                
+                    <button class="shyButton mybutton"> luxury sports cars and SUV</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>11: <a href="posts/lamborghini.html">Lamborghini</a> <small>1400-01-01</small></h2>
+            Ferruccio Lamborghini, an italian manufacturing magnate, founded Automobili Ferruccio Lamborgini in 1963 to compete with established marques includig Ferrari
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/rolls royce.png">
+            </header>
+            <footer>
+                <h2>Rolls Royce</h2>
+                <!-- <small>1400-01-01</small>    t�k t�mann-->
+                <p class="svart">
+                    Rolls-Royce Motor Cars Limited is a British luxury automobile Bílar
+                </p>
+                <a class="button" href="posts/rolls.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">Breskur</button>
+                
+                    <button class="shyButton mybutton"> Bíll</button>
+                
+                    <button class="shyButton mybutton"> luxury automobile</button>
+                
+                    <button class="shyButton mybutton"> limited(4100 til)</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>12: <a href="posts/rolls.html">Rolls Royce</a> <small>1400-01-01</small></h2>
+            Rolls-Royce Motor Cars Limited is a British luxury automobile Bílar
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/chevy.jpg">
+            </header>
+            <footer>
+                <h2>Chevrolet</h2>
+                <!-- <small>1399-01-01</small>    t�k t�mann-->
+                <p class="svart">
+                    1911 3 november var chevrolet gert og er 108 ára bílafyrirtæki og hofundur fyrirtaeksins eru Louis Chevrolet og William C. Durant og bílarnir eru gefnir út allstadar nema í Sudur-Asíu, Sudur-Afríku, Hong Kong, Macau, Taiwan, Nordur-Koreu, Cuba, Iran, Sudan og Sýríu. Chevrolet.com er vefsída þeirra. Amerískur bíll. William C. Durant started the company on November 3, 1911.
+                </p>
+                <a class="button" href="posts/chevrolet.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">Amerískur</button>
+                
+                    <button class="shyButton mybutton"> Bíll</button>
+                
+                    <button class="shyButton mybutton"> Trucks</button>
+                
+                    <button class="shyButton mybutton"> Vans</button>
+                
+                    <button class="shyButton mybutton"> CUVs</button>
+                
+                    <button class="shyButton mybutton"> SUVs</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>13: <a href="posts/chevrolet.html">Chevrolet</a> <small>1399-01-01</small></h2>
+            1911 3 november var chevrolet gert og er 108 ára bílafyrirtæki og hofundur fyrirtaeksins eru Louis Chevrolet og William C. Durant og bílarnir eru gefnir út allstadar nema í Sudur-Asíu, Sudur-Afríku, Hong Kong, Macau, Taiwan, Nordur-Koreu, Cuba, Iran, Sudan og Sýríu. Chevrolet.com er vefsída þeirra. Amerískur bíll. William C. Durant started the company on November 3, 1911.
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/jaguar.jpg">
+            </header>
+            <footer>
+                <h2>Jaguar</h2>
+                <!-- <small>1399-01-01</small>    t�k t�mann-->
+                <p class="svart">
+                    Breskir bílar og 86 ára fyrirtæki. Stofnandi Jaguar heitir William Lyons, Ford Motor Company eignaðist Jaguar árið 1990 - 2008 og þar tók Tata Motors við Jaguar árin 2008 - 2012 og síðan varð Jaguar og Land Rover saman og þá varð Jaguar Land Rover til. Jagur bílar eru dýrir og það er ekki mikið af þeim. Tagline þeirra er "The Art of Performance" og vefsíða þeirra er jaguar.com
+                </p>
+                <a class="button" href="posts/jaguar.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">Breskur</button>
+                
+                    <button class="shyButton mybutton"> Bíll</button>
+                
+                    <button class="shyButton mybutton"> Luxury</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>14: <a href="posts/jaguar.html">Jaguar</a> <small>1399-01-01</small></h2>
+            Breskir bílar og 86 ára fyrirtæki. Stofnandi Jaguar heitir William Lyons, Ford Motor Company eignaðist Jaguar árið 1990 - 2008 og þar tók Tata Motors við Jaguar árin 2008 - 2012 og síðan varð Jaguar og Land Rover saman og þá varð Jaguar Land Rover til. Jagur bílar eru dýrir og það er ekki mikið af þeim. Tagline þeirra er "The Art of Performance" og vefsíða þeirra er jaguar.com
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/lexus.png">
+            </header>
+            <footer>
+                <h2>Lexus</h2>
+                <!-- <small>1399-01-01</small>    t�k t�mann-->
+                <p class="svart">
+                    Lexus is the luxury vehicle division of the Japanese automaker Toyota. The Lexus brand is marketed in more than 70 countries and territories worldwide[2] and has become Japan's largest-selling make of premium cars. It has ranked among the 10 largest Japanese global brands in market value. Lexus is headquartered in Nagoya, Japan.
+                </p>
+                <a class="button" href="posts/lexus.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">Breskur</button>
+                
+                    <button class="shyButton mybutton"> Bíll</button>
+                
+                    <button class="shyButton mybutton"> Sport</button>
+                
+                    <button class="shyButton mybutton"> Luxury</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>15: <a href="posts/lexus.html">Lexus</a> <small>1399-01-01</small></h2>
+            Lexus is the luxury vehicle division of the Japanese automaker Toyota. The Lexus brand is marketed in more than 70 countries and territories worldwide[2] and has become Japan's largest-selling make of premium cars. It has ranked among the 10 largest Japanese global brands in market value. Lexus is headquartered in Nagoya, Japan.
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/ísar.png">
+            </header>
+            <footer>
+                <h2>ísar</h2>
+                <!-- <small>1100-11-01</small>    t�k t�mann-->
+                <p class="svart">
+                    nýtt íslenskt og nett
+                </p>
+                <a class="button" href="posts/isar.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">ísenskur</button>
+                
+                    <button class="shyButton mybutton"> Bíll</button>
+                
+                    <button class="shyButton mybutton"> mjög nýtt</button>
+                
+                    <button class="shyButton mybutton"> trukkur</button>
+                
+                    <button class="shyButton mybutton"> svaka stór og nettur</button>
+                
+                    <button class="shyButton mybutton"> langur</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>16: <a href="posts/isar.html">ísar</a> <small>1100-11-01</small></h2>
+            nýtt íslenskt og nett
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/rivian.png">
+            </header>
+            <footer>
+                <h2>rivian</h2>
+                <!-- <small>1100-11-01</small>    t�k t�mann-->
+                <p class="svart">
+                    Nýr bílategund, sérhæfir í rafmagnsbíla, pikkup bíla
+                </p>
+                <a class="button" href="posts/rivian.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">Electric</button>
+                
+                    <button class="shyButton mybutton"> Pickup-car</button>
+                
+                    <button class="shyButton mybutton"> Semi-autonomous and electric vehicles</button>
+                
+                    <button class="shyButton mybutton"> batteries</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>17: <a href="posts/rivian.html">rivian</a> <small>1100-11-01</small></h2>
+            Nýr bílategund, sérhæfir í rafmagnsbíla, pikkup bíla
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/aston martin.png">
+            </header>
+            <footer>
+                <h2>aston martin</h2>
+                <!-- <small>1000-11-01</small>    t�k t�mann-->
+                <p class="svart">
+                    british manufacturer of luxury sports cars
+                </p>
+                <a class="button" href="posts/aston.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">luxury</button>
+                
+                    <button class="shyButton mybutton"> breskt</button>
+                
+                    <button class="shyButton mybutton"> Automobiles</button>
+                
+                    <button class="shyButton mybutton"> luxury goods</button>
+                
+                    <button class="shyButton mybutton"> nett</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>18: <a href="posts/aston.html">aston martin</a> <small>1000-11-01</small></h2>
+            british manufacturer of luxury sports cars
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/benz.jpg">
+            </header>
+            <footer>
+                <h2>benz</h2>
+                <!-- <small>1000-11-01</small>    t�k t�mann-->
+                <p class="svart">
+                    Mercedes-Benz is known for luxury vehicles
+                </p>
+                <a class="button" href="posts/benz.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">german</button>
+                
+                    <button class="shyButton mybutton"> luxury vehicles</button>
+                
+                    <button class="shyButton mybutton"> vans</button>
+                
+                    <button class="shyButton mybutton"> trucks</button>
+                
+                    <button class="shyButton mybutton"> buses</button>
+                
+                    <button class="shyButton mybutton"> coaches</button>
+                
+                    <button class="shyButton mybutton"> ambulances</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>19: <a href="posts/benz.html">benz</a> <small>1000-11-01</small></h2>
+            Mercedes-Benz is known for luxury vehicles
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/mazda.jpg">
+            </header>
+            <footer>
+                <h2>Mazda</h2>
+                <!-- <small>1000-11-01</small>    t�k t�mann-->
+                <p class="svart">
+                    Mazda Motor Corporation commonly referred to as simply Mazda,
+                </p>
+                <a class="button" href="posts/mazda.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">Japanese</button>
+                
+                    <button class="shyButton mybutton"> SUV</button>
+                
+                    <button class="shyButton mybutton"> Sports cars</button>
+                
+                    <button class="shyButton mybutton"> mini van</button>
+                
+                    <button class="shyButton mybutton"> car</button>
+                
+                    <button class="shyButton mybutton"> 100 ára</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>20: <a href="posts/mazda.html">Mazda</a> <small>1000-11-01</small></h2>
+            Mazda Motor Corporation commonly referred to as simply Mazda,
+        </p> -->
+
+
+
+    <div class="kort">
+
+        <article class="card">
+            <header>
+                <img src="img/opel-6.svg">
+            </header>
+            <footer>
+                <h2>opel</h2>
+                <!-- <small>1000-11-01</small>    t�k t�mann-->
+                <p class="svart">
+                    Opel is a German automobile manufacturer
+                </p>
+                <a class="button" href="posts/opel.html">Um</a>
+                <br>
+                
+                
+                    <button class="shyButton mybutton">þýskur</button>
+                
+                    <button class="shyButton mybutton"> Bíll</button>
+                
+                    <button class="shyButton mybutton"> MPV</button>
+                
+                    <button class="shyButton mybutton"> Leisure activity vehicle</button>
+                
+                    <button class="shyButton mybutton"> old Luxury vehicle</button>
+                
+                    <button class="shyButton mybutton"> Full-size car</button>
+                
+            </footer>
+            
+        </article>
+
+    </div>
+
+<!-- 
+    <p>
+            <h2>21: <a href="posts/opel.html">opel</a> <small>1000-11-01</small></h2>
+            Opel is a German automobile manufacturer
         </p> -->
 
 
 
 </div>
-
+<footer>
+    <center>
+    Haraldur.
+    VEFForritun Verkefni 3 
+    Vinna med markdown, python, html
+    </center>
+</footer>
 
 
     <br>
